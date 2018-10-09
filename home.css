@@ -1,0 +1,49 @@
+
+body{
+	background-color: lightblue;
+}
+
+header, nav, footer{
+	text-align: center;
+}
+
+header, nav{
+	display: block;
+}
+
+header{
+	background-color: black;
+	/*background-image: url("img/title_background.jpg");
+	background-size: cover;
+	background-position: bottom;
+	-- position: relative;*/
+}
+header img{
+	width: 400px;
+	height: 200px;
+}
+
+/*header h1{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	color: white;
+	text-align: center;
+}*/
+
+footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+aside{
+	-- width: 20px;
+	display: inline-flex;
+}
+
+#articles{
+
+}
