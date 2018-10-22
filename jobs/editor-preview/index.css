@@ -1,0 +1,34 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #FAA;
+}
+
+.selection, h1{
+	text-align: center;
+}
+
+.selection{
+	margin: 0 auto;
+}
+
+.slim2{
+	width: 50%;
+	height: 200px;
+}
+
+table{
+	border-spacing: 0 5px;
+}
+
+#amountOfIceCream, #coneSize, #print{
+	width: 100%;
+}
+
+#warningMessage{
+	opacity: 0;
+}

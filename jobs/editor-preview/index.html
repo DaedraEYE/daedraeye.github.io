@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Ice - Editor-Preview</title>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="index.css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.4.1/jspdf.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="index.js"></script>
+</head>
+
+<body>
+	<h1>Ice - Editor-Preview</h1>
+	<table class="selection">
+		<tr>
+			<td class="slim2">
+				<table>
+					<tr>
+						<td>
+							Amount of Ice Cream:
+						</td>
+						<td>
+							<input type="text" id="amountOfIceCream" value="1">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Cone Size:
+						</td>
+						<td>
+							<select id="coneSize">
+								<option value="1">Small</option>
+								<option value="2">Medium</option>
+								<option value="3">Large</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+
+					</tr>
+					<tr>
+						<td colspan="2" id="warningMessage">
+							Placeholder
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<button id="print">Print</button>
+						</td>
+					</tr>
+				</table>
+			</td>
+
+			<td class="slim2" id="preview">
+
+			</td>
+		</tr>
+	</table>
+
+
+
+</body>
+
+</html>
