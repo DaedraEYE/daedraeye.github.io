@@ -4,6 +4,7 @@
     border-width: 0;
 }
 
-body, html, main {
+body, html, main, #sub_main {
     height: 100%;
+    overflow: hidden;
 }
