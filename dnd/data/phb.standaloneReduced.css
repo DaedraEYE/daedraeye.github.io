@@ -614,3 +614,10 @@ body {
 .phb .toc>ul>li {
     margin-bottom: 10px
 }
+
+
+/* Custom */
+.phb {
+    height: 1200px;
+    width: 900px;
+}
